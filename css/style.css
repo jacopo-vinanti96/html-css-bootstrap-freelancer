@@ -56,3 +56,18 @@ main .about {
   background-color: #1ABC9C;
   color: white;
 }
+
+main .contact-me {
+  padding: 30px;
+}
+
+main .contact-me .text-left .row:not(:nth-last-child(2)) form {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+main .contact-me .btn-contact-me {
+  margin-top: 40px;
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+}
