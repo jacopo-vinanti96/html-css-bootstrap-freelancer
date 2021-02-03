@@ -1,3 +1,5 @@
+/* MAIN NAV */
+
 header nav {
   background-color: #2C3E50;
   color: white;
@@ -10,4 +12,18 @@ header nav li {
 
 header nav li:not(:last-child) {
   margin-right: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:991px) {
+  header nav ul {
+    display: none;
+  }
+}
+
+/* HERO SECTION */
+
+header .hero {
+  background-color: #1ABC9C;
 }
