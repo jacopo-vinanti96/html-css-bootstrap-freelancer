@@ -4,9 +4,12 @@
 
 /* MAIN NAV */
 
+header {
+  color: white;
+}
+
 header nav {
   background-color: #2C3E50;
-  color: white;
   padding: 20px 0;
 }
 
@@ -47,4 +50,9 @@ main .portfolio .box_img_pf {
   background-color: red;
   margin: 20px 0;
   padding: 20px 0;
+}
+
+main .about {
+  background-color: #1ABC9C;
+  color: white;
 }
