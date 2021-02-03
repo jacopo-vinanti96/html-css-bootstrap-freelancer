@@ -1,5 +1,5 @@
 .debug {
-  background-color: red;
+  background-color: rgba(125, 0, 0, 0.2);
 }
 
 /* MAIN NAV */
@@ -35,4 +35,16 @@ header .hero {
 
 header .hero h1 {
   font-size: 70px;
+}
+
+/* MAIN */
+
+main .portfolio {
+  padding: 40px 0;
+}
+
+main .portfolio .box_img_pf {
+  background-color: red;
+  margin: 20px 0;
+  padding: 20px 0;
 }
