@@ -71,3 +71,18 @@ main .contact-me .btn-contact-me {
   border-top: 1px solid lightgrey;
   padding-top: 10px;
 }
+
+footer {
+  background-color: #2C3E50;
+  color: white;
+  padding-top: 40px;
+}
+
+footer .container-fluid.darker-blue {
+  background-color: #1A252F;
+  margin-top: 40px;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
