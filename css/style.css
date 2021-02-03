@@ -42,6 +42,7 @@ header .hero h1 {
 
 /* MAIN */
 
+/* PORTFOLIO */
 main .portfolio {
   padding: 40px 0;
 }
@@ -52,11 +53,22 @@ main .portfolio .box_img_pf {
   padding: 20px 0;
 }
 
+/* ABOUT */
 main .about {
   background-color: #1ABC9C;
   color: white;
+  padding: 50px 0 35px;
 }
 
+main .about h2 {
+  margin-bottom: 20px;
+}
+
+main .about .btn-download {
+  margin: 20px 0;
+}
+
+/* CONTACT ME */
 main .contact-me {
   padding: 30px;
 }
@@ -72,6 +84,7 @@ main .contact-me .btn-contact-me {
   padding-top: 10px;
 }
 
+/* FOOTER */
 footer {
   background-color: #2C3E50;
   color: white;
