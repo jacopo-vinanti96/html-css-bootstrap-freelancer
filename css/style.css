@@ -280,18 +280,38 @@ main .about .btn i {
 
 /* CONTACT ME */
 main .contact-me {
-  padding: 30px;
+  padding: 80px 0;
+  color: #2C3E50;
 }
 
 main .contact-me .input_row {
   padding: 10px 0;
-  border-bottom: 1px solid lightgrey;
 }
 
-main .contact-me .btn-contact-me {
+main .contact-me .input_row:not(:nth-last-child(2)) {
+border-bottom: 1px solid lightgrey;
+}
+
+main .contact-me .input_row input, main .contact-me .input_row textarea {
+  color: #2C3E50;
+  font-size: 22px;
+  border: none;
+  box-shadow: none;
+}
+
+main .contact-me .submit_row {
   margin-top: 40px;
   border-top: 1px solid lightgrey;
   padding-top: 10px;
+}
+
+main .contact-me .submit_row .btn_inverted {
+  background-color: #1FBC9C;
+  padding: 18px 23px;
+}
+
+main .contact-me .submit_row .btn_inverted:hover {
+  background-color: #159A80;
 }
 
 /* FOOTER */
