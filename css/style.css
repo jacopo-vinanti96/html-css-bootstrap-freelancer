@@ -1,3 +1,8 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* MIX */
 .debug {
   background-color: rgba(125, 0, 0, 0.2);
 }
@@ -5,6 +10,38 @@
 .container_small {
   width: calc(1170px*65/100);
   margin: auto;
+}
+
+
+.text_white {
+  color: white;
+}
+
+.text_bold {
+  font-weight: 700;
+}
+
+/* REPEATED ELEMS */
+
+.star_divider {
+  margin: 20px 0;
+}
+
+.star_divider i {
+  color: #2C3E50;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.star_divider i:not(.fas) {
+  border: 2px solid #2C3E50;
+  border-radius: 2px;
+  width: 100px;
+}
+
+.star_divider i.fas {
+  margin: 0 12px;
 }
 
 /* Responsive */
@@ -28,29 +65,75 @@
   }
 }
 
-/* MAIN NAV */
-
-header {
-  color: white;
-}
+/* NAVBAR */
 
 header nav {
   background-color: #2C3E50;
-  padding: 20px 0;
+  padding: 35px 0;
+}
+
+header nav .logo {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+header nav .logo:hover {
+  color: white;
+}
+
+header nav .vertical_align {
+  transform: translateY(8px);
+}
+
+header nav ul {
+  margin-bottom: 0;
 }
 
 header nav li {
-  display: inline-block;
+font-size: 17px;
+vertical-align: sub;
 }
 
 header nav li:not(:last-child) {
   margin-right: 20px;
 }
 
+header nav li a:hover {
+  color: #1FBC9C;
+  text-decoration: none;
+}
+
 /* Responsive */
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
+  header nav {
+    padding: 20px;
+  }
+
+  header nav .logo {
+  font-size: 20px;
+  }
+
+  header nav .vertical_align {
+    transform: translateY(0px);
+  }
+
   header nav ul {
+    display: none;
+  }
+
+  header nav .hamburger {
+    display: inline;
+    background-color: #1ABC9C;
+    padding: 13px 15px;
+    border-radius: 6px;
+    vertical-align: sub;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header nav .hamburger {
     display: none;
   }
 }
@@ -59,11 +142,20 @@ header nav li:not(:last-child) {
 
 header .hero {
   background-color: #1ABC9C;
-  padding: 40px 0;
+  padding: 60px 0;
+}
+
+header .hero img {
+  width: 240px;
 }
 
 header .hero h1 {
-  font-size: 70px;
+  font-size: 65px;
+}
+
+header .hero p {
+  font-size: 23px;
+  font-weight: 400;
 }
 
 /* MAIN */
@@ -82,7 +174,6 @@ main .portfolio .box_img_pf {
 /* ABOUT */
 main .about {
   background-color: #1ABC9C;
-  color: white;
   padding: 50px 0 35px;
 }
 
@@ -114,12 +205,8 @@ main .contact-me {
   padding: 30px;
 }
 
-main .contact-me .row form {
+main .contact-me .input_row {
   padding: 10px 0;
-}
-
-
-main .contact-me .row:not(:nth-last-child(2)) form {
   border-bottom: 1px solid lightgrey;
 }
 
@@ -132,7 +219,6 @@ main .contact-me .btn-contact-me {
 /* FOOTER */
 footer {
   background-color: #2C3E50;
-  color: white;
   padding-top: 40px;
 }
 
