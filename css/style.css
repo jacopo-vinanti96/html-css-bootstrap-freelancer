@@ -105,6 +105,13 @@ h2 {
   font-weight: 700;
 }
 
+/* Responsive */
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 35px;
+  }
+}
+
 /* NAVBAR */
 
 header nav {
@@ -308,6 +315,7 @@ main .contact-me .submit_row {
 main .contact-me .submit_row .btn_inverted {
   background-color: #1FBC9C;
   padding: 18px 23px;
+  font-size: 18px;
 }
 
 main .contact-me .submit_row .btn_inverted:hover {
@@ -318,6 +326,26 @@ main .contact-me .submit_row .btn_inverted:hover {
 footer {
   background-color: #2C3E50;
   padding-top: 40px;
+}
+
+footer h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer li a {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 30px;
+  display: inline-block;
+  width: 52px;
+  height: 52px;
 }
 
 footer .container-fluid.bg_sec_footer {
