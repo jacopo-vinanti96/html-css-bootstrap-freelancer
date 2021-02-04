@@ -2,6 +2,32 @@
   background-color: rgba(125, 0, 0, 0.2);
 }
 
+.container_small {
+  width: calc(1170px*65/100);
+  margin: auto;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1199px) {
+  .container_small {
+    width: calc(970px*65/100);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container_small {
+    width: calc(750px*65/100);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_small {
+    width: 100%;
+    max-width: calc(750px*65/100);
+  }
+}
+
 /* MAIN NAV */
 
 header {
@@ -68,14 +94,33 @@ main .about .btn-download {
   margin: 20px 0;
 }
 
+/* Responsive */
+
+@media screen and (max-width: 991px) {
+  main .about .container_small {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main .about .container_small {
+    width: 100%;
+    max-width: 750px;
+  }
+}
+
 /* CONTACT ME */
 main .contact-me {
   padding: 30px;
 }
 
-main .contact-me .text-left .row:not(:nth-last-child(2)) form {
-  border-bottom: 1px solid lightgrey;
+main .contact-me .row form {
   padding: 10px 0;
+}
+
+
+main .contact-me .row:not(:nth-last-child(2)) form {
+  border-bottom: 1px solid lightgrey;
 }
 
 main .contact-me .btn-contact-me {
@@ -91,7 +136,7 @@ footer {
   padding-top: 40px;
 }
 
-footer .container-fluid.darker-blue {
+footer .container-fluid.bg_sec_footer {
   background-color: #1A252F;
   margin-top: 40px;
 }
