@@ -342,10 +342,19 @@ footer li a {
   border-radius: 50%;
   border: 1px solid white;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   display: inline-block;
   width: 52px;
   height: 52px;
+}
+
+footer li a:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
+footer li a .fab, footer li a .fas {
+  vertical-align: middle;
 }
 
 footer .container-fluid.bg_sec_footer {
@@ -353,6 +362,16 @@ footer .container-fluid.bg_sec_footer {
   margin-top: 40px;
 }
 
+footer p a {
+  color: #1FBC9C;
+}
+
+footer p a:hover {
+  color: #159A80;
+}
+
 footer .copyright {
   margin: 20px 0;
+  font-size: 13px;
+  font-family: sans-serif;
 }
