@@ -52,7 +52,7 @@
 .star_divider i {
   display: inline-block;
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 .star_divider i:not(.fas) {
@@ -72,6 +72,31 @@
   margin: 0 12px;
 }
 
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(26, 188, 156, 0.9);
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.overlay-plus {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  z-index: 3;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
 
 /* NAVBAR */
 
@@ -183,13 +208,24 @@ header .hero p {
 
 /* PORTFOLIO */
 main .portfolio {
-  padding: 40px 0;
+  padding: 60px 0;
+  color: #2C3E50;
+}
+
+main .portfolio h2 {
+  font-size: 48px;
+  font-weight: 700;
 }
 
 main .portfolio .box_img_pf {
-  background-color: red;
   margin: 20px 0;
-  padding: 20px 0;
+  position: relative;
+}
+
+main .portfolio .box_img_pf img {
+  width: 100%;
+  border-radius: 10px;
+  vertical-align: bottom;
 }
 
 /* ABOUT */
