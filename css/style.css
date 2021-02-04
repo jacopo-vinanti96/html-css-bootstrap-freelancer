@@ -325,7 +325,7 @@ main .contact-me .submit_row .btn_inverted:hover {
 /* FOOTER */
 footer {
   background-color: #2C3E50;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 footer h3 {
@@ -359,7 +359,10 @@ footer li a .fab, footer li a .fas {
 
 footer .container-fluid.bg_sec_footer {
   background-color: #1A252F;
-  margin-top: 40px;
+  margin-top: 80px;
+  padding: 30px 0;
+  font-size: 13px;
+  font-family: sans-serif;
 }
 
 footer p a {
@@ -368,10 +371,4 @@ footer p a {
 
 footer p a:hover {
   color: #159A80;
-}
-
-footer .copyright {
-  margin: 20px 0;
-  font-size: 13px;
-  font-family: sans-serif;
 }
