@@ -98,6 +98,13 @@
   transform: translate(-50%, -50%);
 }
 
+/* TYPO */
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
 /* NAVBAR */
 
 header nav {
@@ -212,11 +219,6 @@ main .portfolio {
   color: #2C3E50;
 }
 
-main .portfolio h2 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
 main .portfolio .box_img_pf {
   margin: 20px 0;
   position: relative;
@@ -231,15 +233,34 @@ main .portfolio .box_img_pf img {
 /* ABOUT */
 main .about {
   background-color: #1ABC9C;
-  padding: 50px 0 35px;
+  padding: 70px 0;
+  font-size: 18px;
 }
 
 main .about h2 {
   margin-bottom: 20px;
 }
 
-main .about .btn-download {
-  margin: 20px 0;
+main .about a {
+  font-size: 18px;
+}
+
+main .about .btn i {
+  margin-right: 10px;
+}
+
+.btn_download {
+  margin-top: 20px;
+  padding: 18px 23px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.btn_download:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
 }
 
 /* Responsive */
