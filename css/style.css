@@ -312,7 +312,8 @@ main .contact-me .input_row:not(:nth-last-child(2)) {
 border-bottom: 1px solid lightgrey;
 }
 
-main .contact-me .input_row input, main .contact-me .input_row textarea {
+main .contact-me .input_row input,
+main .contact-me .input_row textarea {
   color: #2C3E50;
   font-size: 22px;
   border: none;
@@ -370,7 +371,8 @@ footer li a:hover {
   color: #2C3E50;
 }
 
-footer li a .fab, footer li a .fas {
+footer li a .fab,
+footer li a .fas {
   vertical-align: middle;
 }
 
