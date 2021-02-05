@@ -72,9 +72,7 @@
   margin: 0 12px;
 }
 
-.overlay:hover {
-  opacity: 1;
-}
+/* Overlay */
 
 .overlay {
   position: absolute;
@@ -154,7 +152,7 @@ header nav li a:hover {
 
 @media screen and (max-width: 991px) {
   header nav {
-    padding: 20px;
+    padding: 20px 0;
   }
 
   header nav .logo {
@@ -229,6 +227,9 @@ main .portfolio {
 main .portfolio .box_img_pf {
   margin: 20px 0;
   position: relative;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 main .portfolio .box_img_pf img {
@@ -237,6 +238,18 @@ main .portfolio .box_img_pf img {
   vertical-align: bottom;
 }
 
+main .portfolio .box_img_pf:hover .overlay {
+  opacity: 1;
+}
+
+/* Responsive */
+@media screen and (max-width:767px) {
+  main .portfolio .box_img_pf {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 /* ABOUT */
 main .about {
   background-color: #1ABC9C;
@@ -310,6 +323,10 @@ main .contact-me .submit_row {
   margin-top: 40px;
   border-top: 1px solid lightgrey;
   padding-top: 10px;
+}
+
+main .contact-me ::placeholder {
+color: #495057;
 }
 
 main .contact-me .submit_row .btn_inverted {
